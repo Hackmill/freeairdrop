@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Free Crypto Airdrop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎁 Get Free Crypto Airdrop!</h1>
+    <div class="graphic">
+      <svg width="120" height="120" viewBox="0 0 120 120">
+        <circle cx="60" cy="60" r="50" fill="#FFD700" stroke="#FFA500" stroke-width="6"/>
+        <text x="60" y="75" text-anchor="middle" font-size="45" fill="#fff" font-family="Arial">₿</text>
+      </svg>
+    </div>
+    <form id="airdropForm">
+      <label for="walletType">Choose your Wallet Type:</label>
+      <select id="walletType" required>
+        <option value="">--Select--</option>
+        <option value="MetaMask">MetaMask</option>
+        <option value="Trust Wallet">Trust Wallet</option>
+        <option value="Coinbase Wallet">Coinbase Wallet</option>
+        <option value="Exodus">Exodus</option>
+        <option value="Electrum">Electrum</option>
+        <option value="Argent">Argent</option>
+        <option value="Rainbow">Rainbow</option>
+        <option value="Atomic Wallet">Atomic Wallet</option>
+        <option value="Coinomi">Coinomi</option>
+        <option value="Trezor">Trezor</option>
+        <option value="Ledger">Ledger</option>
+        <option value="SafePal">SafePal</option>
+        <option value="Blockchain.com">Blockchain.com</option>
+        <option value="Phantom">Phantom</option>
+        <option value="Solflare">Solflare</option>
+        <option value="Keplr">Keplr</option>
+        <option value="XDEFI Wallet">XDEFI Wallet</option>
+        <option value="BRD Wallet">BRD Wallet</option>
+        <option value="Gnosis Safe">Gnosis Safe</option>
+      </select>
+      <label for="walletAddress">Enter your Wallet Address:</label>
+      <input type="text" id="walletAddress" placeholder="0x..." required>
+      <button type="submit">Claim Airdrop 🚀</button>
+    </form>
+    <div id="status"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
